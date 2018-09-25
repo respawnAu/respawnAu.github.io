@@ -3,7 +3,17 @@
 .progress {background: rgba(245, 245, 245, 1); border: 1.5px solid rgba(0, 0, 0, 1); border-radius: 0px; height: 5px;}
 .progress-bar-custom {background: rgba(0, 0, 0, 1);}
 
+.btn-cst{
+  display: inline-block; border: 1px solid white; background: #283739;  width: 100px; border-radius:0px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
 
+.btn-cst:hover{
+  transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  background: transparent;
+}
 
 .navbar-nav {
   padding-right: 20px; 
@@ -28,7 +38,7 @@
 
 .parallax { 
     /* The image used */
-    background-image: url("https://images.pexels.com/photos/1046233/pexels-photo-1046233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+    background-image: url("https://images.pexels.com/photos/159204/game-controller-joystick-joypad-gamepad-159204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
     /* Set a specific height */
     height: 200px; 
 
@@ -97,7 +107,7 @@
 
 .parallaxh { 
   /* The image used */
-  background-image: url("imgs/img2.jpg"); 
+  background-image: url("imgs/form.jpg"); 
   /* Set a specific height */
   height: 720px; 
 
@@ -125,7 +135,7 @@
 html,body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Georgia', serif;
   color: #222;
 }
 
